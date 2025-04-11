@@ -7,13 +7,13 @@ import numpy as np # Used for clamping
 # --- User Configuration ---
 
 # !! HEADING PID: REPLACE THESE WITH THE BEST VALUES FOUND BY YOUR GA !!
-BEST_KP = 1.0  # Replace with your best Heading Kp
-BEST_KI = 0.5  # Replace with your best Heading Ki
-BEST_KD = 0.2  # Replace with your best Heading Kd
+BEST_KP = 0.773593  # Replace with your best Heading Kp
+BEST_KI = 0.756765  # Replace with your best Heading Ki
+BEST_KD = 2.159699  # Replace with your best Heading Kd
 
 # !! VSI PID: TUNE THESE VALUES CAREFULLY !!
 # Start with small values and increase gradually. Tuning VSI PID can be tricky.
-VSI_KP = 0.3     # Proportional gain for VSI error -> pitch adjustment
+VSI_KP = 0.75     # Proportional gain for VSI error -> pitch adjustment
 VSI_KI = 0.05    # Integral gain for VSI error -> pitch adjustment
 VSI_KD = 0.1     # Derivative gain for VSI error -> pitch adjustment
 
@@ -22,10 +22,10 @@ TARGET_HEADING = 180      # Target heading in degrees
 TARGET_VERTICAL_SPEED = 1.0 # Target vertical speed in m/s
 
 # Pitch Control Settings
-BASE_PITCH = 5.0          # Base autopilot pitch target (degrees). The VSI PID output ADDS to this.
+BASE_PITCH = 4.5         # Base autopilot pitch target (degrees). The VSI PID output ADDS to this.
                           # Adjust for your aircraft's typical level/climb pitch.
-MIN_PITCH = -5.0         # Minimum allowed final autopilot pitch target
-MAX_PITCH = 25.0          # Maximum allowed final autopilot pitch target
+MIN_PITCH = 2.5         # Minimum allowed final autopilot pitch target
+MAX_PITCH = 6.5          # Maximum allowed final autopilot pitch target
 
 # VSI PID Output Limits (limits the *adjustment* the PID adds to BASE_PITCH)
 VSI_PID_OUTPUT_LIMITS = (-10.0, 15.0) # e.g., Max decrease of 10deg, max increase of 15deg from BASE_PITCH
