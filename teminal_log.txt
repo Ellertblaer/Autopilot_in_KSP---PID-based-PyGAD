@@ -1,0 +1,1021 @@
+Ég fokkaði upp og gleymdi að dumpa output to file, svo ég geri þetta bara handvirkt.
+
+Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 12 (Gen 9): Kp=0.0888, Ki=1.5467, Kd=0.2579 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=9.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 15.6155
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 18.1155 -> Fitness: 0.0552
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 13 (Gen 9): Kp=0.0888, Ki=1.5467, Kd=0.4497 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 15.6155
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 18.1155 -> Fitness: 0.0552
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 14 (Gen 9): Kp=0.0888, Ki=1.0794, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=195.6, Err=-15.6, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 15.6155
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 18.1155 -> Fitness: 0.0552
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+ G----------------------------------------------------------G
+| Generation 8 Finished.
+| Best Fitness in Generation 8: 0.0653
+ G----------------------------------------------------------G
+
+>>> Now training Generation 9... <<<
+
+--- Evaluating Solution 1 (Gen 10): Kp=0.7736, Ki=0.7568, Kd=1.6397 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=191.1, Err=-11.1, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=191.8, Err=-11.8, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=193.0, Err=-13.0, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=194.0, Err=-14.0, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=195.1, Err=-15.1, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=196.1, Err=-16.1, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 13.5950
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 16.0950 -> Fitness: 0.0621
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 2 (Gen 10): Kp=0.7736, Ki=0.2099, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=200.1, Err=-20.1, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=200.2, Err=-20.2, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=201.1, Err=-21.1, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=202.3, Err=-22.3, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=203.6, Err=-23.6, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=204.9, Err=-24.9, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 21.7084
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 24.2084 -> Fitness: 0.0413
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 3 (Gen 10): Kp=0.0888, Ki=1.5467, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=210.1, Err=-30.1, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=210.9, Err=-30.9, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=212.4, Err=-32.4, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=214.3, Err=-34.3, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=216.4, Err=-36.4, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=218.7, Err=-38.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 33.3488
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 35.8488 -> Fitness: 0.0279
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 4 (Gen 10): Kp=0.0888, Ki=1.5467, Kd=1.2525 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=225.5, Err=-45.5, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=227.6, Err=-47.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=230.6, Err=-50.6, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=233.6, Err=-53.6, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=236.8, Err=-56.8, Yaw=-1.00, VSI=0.0
+    t=18.1s, Head=239.9, Err=-59.9, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 51.9105
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 54.4105 -> Fitness: 0.0184
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 5 (Gen 10): Kp=0.0888, Ki=1.5467, Kd=1.7904 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=249.0, Err=-69.0, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=251.9, Err=-71.9, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=255.3, Err=-75.3, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=259.0, Err=-79.0, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=262.7, Err=-82.7, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=266.5, Err=-86.5, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 76.7704
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 79.2704 -> Fitness: 0.0126
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 6 (Gen 10): Kp=0.7736, Ki=0.7568, Kd=1.0640 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=277.5, Err=-97.5, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=280.6, Err=-100.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=284.5, Err=-104.5, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=288.8, Err=-108.8, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=293.3, Err=-113.3, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=297.7, Err=-117.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 106.0877
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 108.5877 -> Fitness: 0.0092
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 7 (Gen 10): Kp=0.0888, Ki=0.3711, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=310.4, Err=-130.4, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=314.4, Err=-134.4, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=319.3, Err=-139.3, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=324.6, Err=-144.6, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=330.1, Err=-150.1, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=335.7, Err=-155.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 141.2087
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 143.7087 -> Fitness: 0.0070
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 8 (Gen 10): Kp=0.0888, Ki=1.5467, Kd=1.0681 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=350.7, Err=-170.7, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=356.0, Err=-176.0, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=359.5, Err=-179.5, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=9.4, Err=170.6, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=14.8, Err=165.2, Yaw=1.00, VSI=0.0
+    t=18.3s, Head=21.3, Err=158.7, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 169.5114
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 172.0114 -> Fitness: 0.0058
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 9 (Gen 10): Kp=0.0888, Ki=0.7202, Kd=0.2579 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=34.5, Err=145.5, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=42.0, Err=138.0, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=48.3, Err=131.7, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=54.0, Err=126.0, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=59.2, Err=120.8, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=64.1, Err=115.9, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 130.8865
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 133.3865 -> Fitness: 0.0075
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 10 (Gen 10): Kp=0.0888, Ki=0.7568, Kd=1.4187 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=72.3, Err=107.7, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=78.1, Err=101.9, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=82.3, Err=97.7, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=86.3, Err=93.7, Yaw=1.00, VSI=0.0
+    t=15.1s, Head=89.9, Err=90.1, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=93.3, Err=86.7, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 97.1432
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 99.6432 -> Fitness: 0.0100
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 11 (Gen 10): Kp=1.5926, Ki=0.7568, Kd=1.8550 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=97.8, Err=82.2, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=101.5, Err=78.5, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=104.8, Err=75.2, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 76.6554
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 79.1554 -> Fitness: 0.0126
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 12 (Gen 10): Kp=0.7736, Ki=1.3593, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 73.0105
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 75.5105 -> Fitness: 0.0132
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 13 (Gen 10): Kp=0.0888, Ki=1.0794, Kd=0.6749 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=6.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=9.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=12.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=15.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 73.0105
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 75.5105 -> Fitness: 0.0132
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 14 (Gen 10): Kp=0.0888, Ki=0.9742, Kd=0.2579 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.0, Err=73.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 73.0105
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 75.5105 -> Fitness: 0.0132
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+ G----------------------------------------------------------G
+| Generation 9 Finished.
+| Best Fitness in Generation 9: 0.0653
+ G----------------------------------------------------------G
+
+>>> Now training Generation 10... <<<
+
+--- Evaluating Solution 1 (Gen 11): Kp=0.7736, Ki=0.7568, Kd=1.7911 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=191.1, Err=-11.1, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=191.8, Err=-11.8, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=193.1, Err=-13.1, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=194.1, Err=-14.1, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=195.2, Err=-15.2, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=196.2, Err=-16.2, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 13.6338
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 16.1338 -> Fitness: 0.0620
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 2 (Gen 11): Kp=0.7736, Ki=0.0898, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=200.2, Err=-20.2, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=200.3, Err=-20.3, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=201.2, Err=-21.2, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=202.4, Err=-22.4, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=203.6, Err=-23.6, Yaw=-1.00, VSI=0.0
+    t=18.1s, Head=204.9, Err=-24.9, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 21.7522
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 24.2522 -> Fitness: 0.0412
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 3 (Gen 11): Kp=0.0888, Ki=0.8202, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=210.2, Err=-30.2, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=210.9, Err=-30.9, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=212.4, Err=-32.4, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=214.3, Err=-34.3, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=216.4, Err=-36.4, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=218.7, Err=-38.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 33.3653
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 35.8653 -> Fitness: 0.0279
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 4 (Gen 11): Kp=0.0888, Ki=1.5856, Kd=1.2525 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=225.5, Err=-45.5, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=227.5, Err=-47.5, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=230.4, Err=-50.4, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=233.4, Err=-53.4, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=236.5, Err=-56.5, Yaw=-1.00, VSI=0.0
+    t=18.1s, Head=239.5, Err=-59.5, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 51.6808
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 54.1808 -> Fitness: 0.0185
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 5 (Gen 11): Kp=0.0888, Ki=0.8666, Kd=2.1597 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=248.7, Err=-68.7, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=251.3, Err=-71.3, Yaw=-1.00, VSI=0.0
+    t=9.0s, Head=254.6, Err=-74.6, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=258.1, Err=-78.1, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=261.7, Err=-81.7, Yaw=-1.00, VSI=0.0
+    t=18.1s, Head=265.4, Err=-85.4, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 75.9601
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 78.4601 -> Fitness: 0.0127
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 6 (Gen 11): Kp=0.7736, Ki=0.7568, Kd=2.1651 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=276.2, Err=-96.2, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=279.3, Err=-99.3, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=283.2, Err=-103.2, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=287.3, Err=-107.3, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=291.6, Err=-111.6, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=296.1, Err=-116.1, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 104.5950
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 107.0950 -> Fitness: 0.0093
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 7 (Gen 11): Kp=0.7736, Ki=0.5104, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=308.7, Err=-128.7, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=312.6, Err=-132.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=317.4, Err=-137.4, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=322.6, Err=-142.6, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=328.0, Err=-148.0, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=333.5, Err=-153.5, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 139.2917
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 141.7917 -> Fitness: 0.0071
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 8 (Gen 11): Kp=0.7736, Ki=0.6411, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=347.9, Err=-167.9, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=353.1, Err=-173.1, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=358.5, Err=-178.5, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=4.3, Err=175.7, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=11.6, Err=168.4, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=18.0, Err=162.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 169.9668
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 172.4668 -> Fitness: 0.0058
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 9 (Gen 11): Kp=0.0888, Ki=1.5467, Kd=0.8611 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=31.4, Err=148.6, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=39.1, Err=140.9, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=45.6, Err=134.4, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=51.4, Err=128.6, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=56.7, Err=123.3, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=61.7, Err=118.3, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 133.4263
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 135.9263 -> Fitness: 0.0074
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 10 (Gen 11): Kp=0.0888, Ki=1.6227, Kd=2.1597 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=70.1, Err=109.9, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=76.1, Err=103.9, Yaw=1.00, VSI=0.0
+    t=9.2s, Head=80.5, Err=99.5, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=84.4, Err=95.6, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=88.2, Err=91.8, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=91.6, Err=88.4, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 99.0889
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 101.5889 -> Fitness: 0.0098
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 11 (Gen 11): Kp=1.2636, Ki=0.7568, Kd=1.6397 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=96.8, Err=83.2, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=100.2, Err=79.8, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=103.5, Err=76.5, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=106.4, Err=73.6, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=18.3s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 77.2582
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 79.7582 -> Fitness: 0.0125
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 12 (Gen 11): Kp=0.2569, Ki=0.2099, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=9.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=15.3s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=18.3s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 72.4320
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 74.9320 -> Fitness: 0.0133
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 13 (Gen 11): Kp=0.0824, Ki=1.5467, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 72.4320
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 74.9320 -> Fitness: 0.0133
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 14 (Gen 11): Kp=0.9834, Ki=1.5467, Kd=1.2525 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=12.1s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=107.6, Err=72.4, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 72.4320
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 74.9320 -> Fitness: 0.0133
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+ G----------------------------------------------------------G
+| Generation 10 Finished.
+| Best Fitness in Generation 10: 0.0653
+ G----------------------------------------------------------G
+| Final generation complete.
+
+=== Genetic Algorithm Finished ===
+
+Could not display plot: Plot.plot_fitness() got an unexpected keyword argument 'ax'
+
+--- Evaluating Solution 5 (Gen 11): Kp=0.0888, Ki=0.8666, Kd=2.1597 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=189.1, Err=-9.1, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=190.9, Err=-10.9, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=192.6, Err=-12.6, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=193.7, Err=-13.7, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=194.8, Err=-14.8, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=195.9, Err=-15.9, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 13.2322
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 15.7322 -> Fitness: 0.0636
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 6 (Gen 11): Kp=0.7736, Ki=0.7568, Kd=2.1651 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=200.2, Err=-20.2, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=200.2, Err=-20.2, Yaw=-1.00, VSI=0.0
+    t=9.2s, Head=201.1, Err=-21.1, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=202.2, Err=-22.2, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=203.4, Err=-23.4, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=204.7, Err=-24.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 21.6152
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 24.1152 -> Fitness: 0.0415
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 7 (Gen 11): Kp=0.7736, Ki=0.5104, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=209.7, Err=-29.7, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=210.2, Err=-30.2, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=211.4, Err=-31.4, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=213.1, Err=-33.1, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=214.8, Err=-34.8, Yaw=-1.00, VSI=0.0
+    t=18.3s, Head=216.7, Err=-36.7, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 32.1349
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 34.6349 -> Fitness: 0.0289
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 8 (Gen 11): Kp=0.7736, Ki=0.6411, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=223.0, Err=-43.0, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=224.6, Err=-44.6, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=227.0, Err=-47.0, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=229.7, Err=-49.7, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=232.5, Err=-52.5, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=235.3, Err=-55.3, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 48.2318
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 50.7318 -> Fitness: 0.0197
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 9 (Gen 11): Kp=0.0888, Ki=1.5467, Kd=0.8611 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.1s, Head=243.8, Err=-63.8, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=246.0, Err=-66.0, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=249.2, Err=-69.2, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=252.4, Err=-72.4, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=255.6, Err=-75.6, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=259.1, Err=-79.1, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 70.2629
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 72.7629 -> Fitness: 0.0137
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 10 (Gen 11): Kp=0.0888, Ki=1.6227, Kd=2.1597 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=269.0, Err=-89.0, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=271.8, Err=-91.8, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=275.3, Err=-95.3, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=279.1, Err=-99.1, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=283.0, Err=-103.0, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=287.0, Err=-107.0, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 96.7097
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 99.2097 -> Fitness: 0.0101
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 11 (Gen 11): Kp=1.2636, Ki=0.7568, Kd=1.6397 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=298.6, Err=-118.6, Yaw=-1.00, VSI=0.0
+    t=6.1s, Head=302.1, Err=-122.1, Yaw=-1.00, VSI=0.0
+    t=9.1s, Head=306.2, Err=-126.2, Yaw=-1.00, VSI=0.0
+    t=12.2s, Head=310.9, Err=-130.9, Yaw=-1.00, VSI=0.0
+    t=15.2s, Head=315.7, Err=-135.7, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=320.6, Err=-140.6, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 127.7505
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 130.2505 -> Fitness: 0.0077
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 12 (Gen 11): Kp=0.2569, Ki=0.2099, Kd=0.5561 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=334.1, Err=-154.1, Yaw=-1.00, VSI=0.0
+    t=6.0s, Head=338.6, Err=-158.6, Yaw=-1.00, VSI=0.0
+    t=9.0s, Head=343.9, Err=-163.9, Yaw=-1.00, VSI=0.0
+    t=12.1s, Head=349.6, Err=-169.6, Yaw=-1.00, VSI=0.0
+    t=15.1s, Head=355.4, Err=-175.4, Yaw=-1.00, VSI=0.0
+    t=18.2s, Head=359.3, Err=-179.3, Yaw=-1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 165.5789
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 168.0789 -> Fitness: 0.0059
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 13 (Gen 11): Kp=0.0824, Ki=1.5467, Kd=0.1943 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=14.0, Err=166.0, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=20.5, Err=159.5, Yaw=1.00, VSI=0.0
+    t=9.1s, Head=26.7, Err=153.3, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=32.9, Err=147.1, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=39.0, Err=141.0, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=44.7, Err=135.3, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 151.6009
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 154.1009 -> Fitness: 0.0065
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+--- Evaluating Solution 14 (Gen 11): Kp=0.9834, Ki=1.5467, Kd=1.2525 ---
+  Connecting to kRPC...
+  Setting up simulation: Target Head=180, Target VSI≈1.0, Dur=20s
+  Setting initial throttle: 1.0
+  Engaging Autopilot: Target Pitch=15.0 deg, Target Roll=0 deg
+  Waiting 2.0s for initial AP set...
+  Proceeding to simulation loop (Fitness function will evaluate VSI).
+  Starting PID control loop...
+    t=3.0s, Head=53.1, Err=126.9, Yaw=1.00, VSI=0.0
+    t=6.1s, Head=59.7, Err=120.3, Yaw=1.00, VSI=0.0
+    t=9.2s, Head=64.9, Err=115.1, Yaw=1.00, VSI=0.0
+    t=12.2s, Head=69.6, Err=110.4, Yaw=1.00, VSI=0.0
+    t=15.2s, Head=73.9, Err=106.1, Yaw=1.00, VSI=0.0
+    t=18.2s, Head=78.0, Err=102.0, Yaw=1.00, VSI=0.0
+  Simulation finished.
+    Applying diving penalty (Avg VSI 0.00 < 0.70)
+  Avg Abs Heading Error: 114.4199
+  Average Vertical Speed: 0.0000 (Target: 1.0)
+  VSI Deviation (Penalized): 5.0000
+  Combined Weighted Error: 116.9199 -> Fitness: 0.0086
+  Cleaning up controls...
+  Unexpected error during cleanup: 'AutoPilot' object has no attribute 'engaged'
+  Closing kRPC connection.
+
+Best solution found:
+  Generation: 0
+  Index in Last Pop: 0
+  Gains (Kp, Ki, Kd): (0.773593, 0.756765, 2.159699)
+  Fitness value = 0.065287
+
+Optimization complete.

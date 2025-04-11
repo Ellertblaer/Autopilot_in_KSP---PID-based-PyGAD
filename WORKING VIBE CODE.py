@@ -9,16 +9,19 @@ import matplotlib.pyplot as plt # Needed for ga_instance.plot_fitness()
 #STILLINGAR, ÆLA ÆLA ÆLA
 # --- Configuration ---
 KSP_CONNECTION_NAME = 'GA_PID_Tuner_Heading_VSI'
-TARGET_HEADING = 45      # Target heading in degrees
+TARGET_HEADING = 180      # Target heading in degrees
 TARGET_VERTICAL_SPEED = 1.0 # Target vertical speed in m/s (e.g., 1.0 for a gentle climb)
+#SIMULATION_DURATION = 1
 SIMULATION_DURATION = 20 # How many seconds to test each set of PID gains (Increased slightly for VSI stability)
 CONTROL_UPDATE_INTERVAL = 0.05 # How often to update PID and controls (seconds) - slightly faster updates might help
 INITIAL_THROTTLE = 1.0   # Initial throttle setting for the test flight
+SAVEGAME_NAME = "quicksave"
 
 conn = krpc.connect(name='Til að control virki')
 vessel = conn.space_center.active_vessel
 control = vessel.control
 ap = vessel.auto_pilot
+sc = conn.space_center
 
 # --- Fitness Function Weights (TUNE THESE!) ---
 # How much to prioritize heading accuracy vs vertical speed accuracy
@@ -26,7 +29,7 @@ ap = vessel.auto_pilot
 HEADING_WEIGHT = 1.0
 VSI_WEIGHT = 0.5 # Start with VSI being less critical than heading, adjust as needed
 # Penalty for diving significantly below the target VSI
-DIVING_PENALTY_MULTIPLIER = 3.0 # Increase penalty if average VSI is well below target
+DIVING_PENALTY_MULTIPLIER = 5.0 # Increase penalty if average VSI is well below target
 VSI_ALLOWED_NEGATIVE_DEVIATION = 0.3 # How many m/s below target VSI before heavy penalty kicks in (e.g. target 1, penalty starts below -1)
 
 # --- Pitch/Altitude Control Method ---
@@ -95,6 +98,8 @@ def generation_countdown_callback(ga_instance):
 
     #Kemur beint á undan tékkinu
     control.sas = True 
+    time.sleep(1)
+    sc.load(SAVEGAME_NAME)
 
     print(f"\n G----------------------------------------------------------G")
     print(f"| Generation {completed_gen} Finished.")
@@ -112,7 +117,7 @@ def generation_countdown_callback(ga_instance):
  
         print(f" G----------------------------------------------------------G")
 
-        countdown_duration = 15
+        countdown_duration = 3
         for i in range(countdown_duration, 0, -1):
             print(f"    Prep time remaining: {i:2d} seconds... \r", end='', flush=True)
             time.sleep(1)
@@ -320,14 +325,20 @@ num_genes = len(gene_space)
 #STILLINGAR, ÆLA ÆLA ÆLA
 # --- GA Parameters - TUNE THESE! ---
 # Using the faster parameters from previous version
+#num_generations = 3
 num_generations = 10
+#num_parents_mating = 2
 num_parents_mating = 5
+#sol_per_pop = 2
 sol_per_pop = 15
 parent_selection_type = "sss"
 keep_parents = 2
 mutation_type = "random"
 mutation_percent_genes = 30
 
+
+
+#Þetta er það fyrsta sem prentast.
 print("\n=== Initializing Genetic Algorithm ===")
 ga_instance = pygad.GA(num_generations=num_generations,
                        num_parents_mating=num_parents_mating,
